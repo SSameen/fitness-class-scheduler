@@ -1,17 +1,14 @@
-import api from `./axios`;
+import axios from "axios";
 
-export const getClasses = async()=>{
-return await api.get(`/classes`);
-}
+const api = axios.create({
+  baseURL: "http://localhost:5000"
+});
 
-export const addClass = async()=>{
-    return await api.post(`/classes`, newclass);
-}
+// Classes
+export const getClasses = async () => await api.get("/classes");
+export const addClass = async (newClass) => await api.post("/classes", newClass);
+export const updateClass = async (id, updatedClass) => await api.put(`/classes/${id}`, updatedClass);
+export const deleteClass = async (id) => await api.delete(`/classes/${id}`);
 
-export const updateClass = async()=>{
-    return await api.put(`/classes/${id}`,updatedclass);
-}
-
-export const deleteClass = async()=>{
-    return await api.delete(`/classes/${id}`);
-}
+// Clients
+export const getClients = async () => await api.get("/clients");

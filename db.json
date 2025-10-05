@@ -1,52 +1,92 @@
 {
   "classes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Morning Strength",
       "trainer": "Sameen",
       "time": "06:00 AM"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Evening HIIT",
       "trainer": "Sameen",
       "time": "07:00 PM"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Yoga Flow",
       "trainer": "Priya",
       "time": "06:30 AM"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Zumba Fun",
       "trainer": "Neha",
       "time": "05:00 PM"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Pilates Core",
       "trainer": "Ananya",
       "time": "08:00 AM"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Power Strength",
       "trainer": "Sameen",
       "time": "09:00 AM"
     }
   ],
   "clients": [
-    { "id": 1, "name": "Aarushi", "enrolledClass": 1 },
-    { "id": 2, "name": "Ishita", "enrolledClass": 2 },
-    { "id": 3, "name": "Sneha", "enrolledClass": 3 },
-    { "id": 4, "name": "Riya", "enrolledClass": 4 },
-    { "id": 5, "name": "Anika", "enrolledClass": 5 },
-    { "id": 6, "name": "Meera", "enrolledClass": 1 },
-    { "id": 7, "name": "Kavya", "enrolledClass": 2 },
-    { "id": 8, "name": "Sanya", "enrolledClass": 3 },
-    { "id": 9, "name": "Tanya", "enrolledClass": 4 },
-    { "id": 10, "name": "Diya", "enrolledClass": 5 }
+    {
+      "id": "1",
+      "name": "Aarushi",
+      "enrolledClass": 1
+    },
+    {
+      "id": "2",
+      "name": "Ishita",
+      "enrolledClass": 2
+    },
+    {
+      "id": "3",
+      "name": "Sneha",
+      "enrolledClass": 3
+    },
+    {
+      "id": "4",
+      "name": "Riya",
+      "enrolledClass": 4
+    },
+    {
+      "id": "5",
+      "name": "Anika",
+      "enrolledClass": 5
+    },
+    {
+      "id": "6",
+      "name": "Meera",
+      "enrolledClass": 1
+    },
+    {
+      "id": "7",
+      "name": "Kavya",
+      "enrolledClass": 2
+    },
+    {
+      "id": "8",
+      "name": "Sanya",
+      "enrolledClass": 3
+    },
+    {
+      "id": "9",
+      "name": "Tanya",
+      "enrolledClass": 4
+    },
+    {
+      "id": "10",
+      "name": "Diya",
+      "enrolledClass": 5
+    }
   ]
 }
